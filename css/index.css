@@ -1,0 +1,33 @@
+.mask{
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    top:0;left:0;
+    background:rgba(0, 0, 0, 0.6);
+}
+.mask .mask_panel{
+    padding:40px 10px 20px 10px;
+    box-shadow: 0 0 0 5px 5px #fff;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    /* height:250px; */
+    background:#fff;
+    border-radius:20px;
+    position:absolute;
+    top:50%;left:50%;
+    transform:translate(-50%,-50%);
+}
+.mask .mask_panel h5{
+    font-size:15px;
+}
+.mask .mask_panel h5 strong{
+    font-size:17px;
+}
+.mask .mask_panel img{
+    width:80%;
+    height:80%;
+    margin-bottom:15px
+}
