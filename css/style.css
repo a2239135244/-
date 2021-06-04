@@ -589,7 +589,7 @@ ul {
       .banner .banner-content a:hover {
         background: transparent;
         border: 1px solid #fff; }
-      .banner .banner-content a:last-child {
+      .banner .banner-content a:first-child {
         background: transparent;
         border: 1px solid #fff; }
         .banner .banner-content a:last-child:hover {

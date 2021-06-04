@@ -28,14 +28,19 @@ Object.defineProperty(addPeoData, 'showQQOrWX', {
             // 显示mask
             $('.mask_panel.WX').show();
             $('.mask_panel.QQ').hide();
-        } else {
+            $('.mask_panel.BF').hide();
+        } else if (Val == 2) {
             $('.mask_panel.QQ').show();
             $('.mask_panel.WX').hide();
+            $('.mask_panel.BF').hide();
+        } else if (Val == 3) {
+            $('.mask_panel.QQ').hide();
+            $('.mask_panel.WX').hide();
+            $('.mask_panel.BF').show();
         }
     }
 })
-$('.mask').click(() => {
-    console.log('zhixing')
+$('.mask').click(function () {
     addPeoData.showMask = false;
 })
 
